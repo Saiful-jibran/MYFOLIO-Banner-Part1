@@ -1,0 +1,117 @@
+/* common css starts here */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center{
+    align-items: center;
+
+}
+
+.button{
+    display: inline-block;
+    padding: 19px 43px;
+    background-color: #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    flood-color: #0b1016;
+    text-transform: uppercase;
+    border-radius: 10px;
+    
+   
+}
+/* common css ends here */
+
+/* nabbar starts here */
+nav{
+    background-color: #00ff6a;
+}
+.logo{
+    width: 40%;
+    align-self: center;
+}
+
+.menu{
+    width: 60%;
+    text-align: right;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+}
+/* nabbar ends here */
+
+/* banner starts here */
+#banner{
+    background-image: url(../images/banner.jpg);
+    height: 728px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .34);
+    background-blend-mode: multiply;
+}
+
+.banner_cnt{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.banner_cnt h4{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.banner_cnt h1{
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+.banner_cnt p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner_cnt img{
+    display: block;
+    margin: 50px auto;
+}
+
+#banner .container, .row{
+    height: 100%;
+}
+/* banner ends here */
+
